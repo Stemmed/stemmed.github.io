@@ -22,6 +22,18 @@
 		<a class="" href="https://steamcommunity.com/id/RealStemmed/" target="_Blank"><i class="hvr-float fab fa-steam"></i></a>
 		<a class="" href="https://instagram.com/Kye___14/" target="_Blank"><i class="hvr-float fab fa-instagram"></i></a>
 		<a class="" href="Kye#7645" target="_Blank"><i class="hvr-float fab fa-discord"></i></a>
+		<script>
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+</script>
+
+<p id="text">Hello</p>
+<button onclick="copyToClipboard('#text')"></button>
         </div>
 </body>
 <script type="text/javascript" src="./js/qwery.js"></script>
